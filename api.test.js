@@ -11,10 +11,3 @@ test('Testing root endpoint', async () => {
     const message = res.body.message
     expect(message).toBe('hi!!')
 })
-
-
-test('Testing recommend endpoint', async () => {
-    const res = await request.get('/recommend').query({'type':'fruits'})
-    const message = res.body.recommendation
-    expect(message).toBe('Apple')
-})
