@@ -9,7 +9,7 @@ app.use(BodyParser.urlencoded({ extended: true }))
 app.use(cors())
 
 
-let fruits = ['Banana', 'Orange', 'Melons', 'Mangosteen', 'Peach', 'Raspberry', 'Blueberry', 'Avocado', 'Grapes','Pomegranite','Tangerine', 'Mango', 'Cherry', 'Tomato','Huckleberry', 'Lychee', 'Durian', 'Blackberry']
+let fruits = ['Banana', 'Orange', 'Melonsss', 'Mangosteen', 'Peach', 'Raspberry', 'Blueberry', 'Avocado', 'Grapes','Pomegranite','Tangerine', 'Mango', 'Cherry', 'Tomato','Huckleberry', 'Lychee', 'Durian', 'Blackberry']
 
 
 
